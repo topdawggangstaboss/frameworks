@@ -1,0 +1,29 @@
+
+// Create cart for a specific user
+POST http://localhost:5000/users HTTP/1.1
+content-type: application/json
+
+{"userName": "Mia Heine Nowack", "email": "ROFL@hihi.com", "password":"3333"}
+
+###
+
+// Another create cart for a specific user
+POST http://localhost:5000/users HTTP/1.1
+content-type: application/json
+
+{ "userName": "Kristrún Jóhannsdóttir", "email": "LMA@hihi.com","password": "1212121212121"}
+
+###
+
+// Get content 
+GET http://localhost:5000/users/1/cart HTTP/1.1
+
+###
+
+// Put a product in the basket for a specific user
+PUT http://localhost:5000/users/1/cart/products/1 HTTP/1.1
+
+###
+
+// Remove a product from the basket for a specific user
+DELETE http://localhost:5000/users/2/cart/products/6 HTTP/1.1

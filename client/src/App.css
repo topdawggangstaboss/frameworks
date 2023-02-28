@@ -1,0 +1,456 @@
+/* ---------------------------------------- Navigation Bar ------------------------------------- */
+
+/* Add background color to the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: white;
+  position: relative;
+}
+.logo-div {
+  width: inherit;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.topnav2-left {
+  width: 30%;
+  margin-right: 15px;
+  display: flex;
+  justify-content: left;
+}
+.topnav2-right {
+  width: 30%;
+  margin-right: 15px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.topnav2-center {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+
+.topnav-center {
+  width: inherit;
+  display: flex;
+  margin-bottom: 60px;
+  margin-top: 30px;
+  border-width: 1px;
+  border-style: solid none solid none;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  color: #343434;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  text-decoration: underline;
+  color: #343434;
+}
+
+/* 'Seperates' the navbar, so icons are in the left side*/
+
+.topnav2-right a {
+  color: #343434;
+  text-align: center;
+  padding: 10px 12px;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+/* Logo in navbar */
+.logo {
+  float: left;
+  margin: 15px;
+  width: 100px;
+}
+
+/* ---------------------------------------------- Burger Menu --------------------------------------------------------------- */
+
+App {
+  height: 100vh;
+}
+
+#page-wrap {
+  text-align: center;
+  overflow: auto;
+  top: 45%;
+  position: relative;
+}
+
+.bm-item {
+  display: inline-block;
+
+  /* Our sidebar item styling */
+  margin-bottom: 0px;
+  color: #ffffff;
+  transition: color 0.2s;
+}
+
+.bm-item:hover {
+  color: white;
+}
+
+.bm-burger-button {
+  position: absolute;
+  width: 25px;
+  height: 17px;
+  left: 36px;
+  top: 198px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: rgb(58, 56, 56);
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: rgb(255, 255, 255);
+  padding: 2.5em 1.5em 1;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #000000;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+}
+
+/* --------------------------------------------- Card-Deck --------------------------------------------------------------- */
+
+/* Style the cards */
+
+.card {
+  padding: 0px 0px 50px 0px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.container {
+  width: 75%;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.card-title {
+  text-align: left;
+  font-size: 17px !important;
+}
+
+.card-text {
+  text-align: left;
+}
+
+/* Card prices for Adult/Children */
+.card-price2 {
+  text-align: left;
+  text-decoration: underline;
+  font-size: 14px;
+  line-height: 0mm; /*Reduces the space between card-title and card-price*/
+}
+
+/* Card prices for homepage */
+.card-price-news {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 14px;
+  line-height: 0mm; /*Reduces the space between card-title and card-price*/
+}
+
+/* Add hover effect to card-images */
+.card:hover .card-img-top {
+  opacity: 0.7;
+}
+
+/* Button styling */
+.button {
+  background-color: #c2cac2;
+  display: flexbox;
+  border: none;
+  color: black;
+  padding: 8px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 2px;
+  transition-duration: 0.4s;
+  width: max-content;
+  margin-right: 10px;
+}
+
+/* Changes color when hovering over button */
+.button:active {
+  background-color: #555454;
+  color: rgb(160, 158, 158);
+}
+
+/* ------------------------------ Specific for the description pages (card) ---------------------------------- */
+
+/* The card price on description cards */
+.card-price {
+  font-weight: bold;
+  font-size: small;
+}
+
+/* Float two columns side by side */
+.column {
+  float: left;
+  width: 40%;
+  padding: 5px; /* space around an element's content */
+  padding-top: 10px;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 1000px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 20px;
+  }
+}
+
+/* ------------------------------------- Home Page ---------------------------------------------------- */
+
+/* Adds space in the bottom and top of news section on homepage */
+.news {
+  margin-bottom: 2cm;
+  margin-top: 1cm;
+}
+
+/* Styles description paragraph on homepage */
+.description {
+  font-style: italic;
+  font-size: 16px;
+  line-height: 7mm;
+  margin-left: 3cm;
+  margin-right: 3cm;
+  margin-bottom: 2cm;
+  text-align: justify;
+}
+
+/* Size of cards for new styles */
+.card.news {
+  width: 250px;
+}
+
+/* Centers carousel image (relevant on wider screens) */
+.carousel-inner img {
+  margin: auto;
+}
+
+.card.index {
+  width: inherit;
+}
+
+.message {
+  margin-top: 80px;
+  margin-bottom: 60px;
+}
+
+/* --------------------------------------- Login ------------------------------------------------- */
+
+.login-container {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 50px;
+  display: block;
+  text-align: center;
+}
+
+/* Styles input fields with 25% width */
+input[type="text"],
+input[type="password"] {
+  width: 40%;
+  padding: 15px;
+  margin: 5px 5px 10px 0px;
+  display: inline-block;
+  border: 1px solid #a5a2a2;
+  background: white;
+}
+
+/* Thicker border when clicking in the box */
+input[type="text"]:focus,
+input[type="password"]:focus {
+  outline: #b5bcb0 solid 1px;
+}
+
+/* --------------------------------------- ShoppingCart page ---------------------------------------------- */
+
+.products-container {
+  max-width: 800px;
+  justify-content: center;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 100px;
+}
+
+.welcome-message {
+  max-width: 800;
+  padding: 10px;
+  border: 5px solid white;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 50px solid white;
+  margin: auto;
+  text-align: center;
+}
+
+.product-header {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 4px solid lightgrey;
+  margin: 0 auto;
+}
+
+.product-title {
+  width: 50%;
+  display: flex;
+}
+
+.remove {
+  width: 10%;
+  display: flex;
+  align-self: center;
+}
+
+.product-image {
+  width: 20%;
+  display: flex;
+}
+
+.product-name {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  justify-content: space-around;
+}
+
+.price {
+  width: 35%;
+  display: flex;
+  align-items: center;
+}
+
+.quantity {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.products {
+  width: 100%;
+}
+
+.product {
+  width: 100%;
+  display: flex;
+  align-items: left;
+  padding: 10px 0;
+}
+
+.cart-message {
+  margin-top: 70px;
+  text-align: center;
+}
+
+.cart-img {
+  width: 80px;
+}
+
+/* ------------------------ Media --------------------------- */
+
+@media screen and (max-width: 700px) {
+  /* On screens that are less than 700px wide, make the sidebar into a topbar */
+  .sidenav {
+    width: 100%;
+    height: auto;
+    margin: 10px;
+    padding: 0px;
+    position: relative;
+  }
+
+  .sidenav a {
+    float: center;
+    margin: 0;
+    font-size: 15px;
+  }
+
+  /* Make navbar links be on the same line, instead of 2 */
+  .topnav a {
+    padding: 16px 4px;
+    font-size: 19px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav2-center a:first-child {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+
+  .description {
+    margin: 10px;
+    width: inherit;
+  }
+
+  .products-container {
+    margin: 5px;
+  }
+
+  .topnav2-right {
+    margin-right: 0px;
+  }
+
+  .login-container {
+    width: 100%;
+  }
+
+  input[type="text"],
+  input[type="password"] {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  /* Responsivness for the burger menu */
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 5rem;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+  }
+}

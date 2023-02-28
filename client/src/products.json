@@ -1,0 +1,193 @@
+[
+  {
+    "id": 1,
+    "name": "Ylur Overall",
+    "price": 900,
+    "img": "/images/children/ylur14.jpg",
+    "category": {
+      "category1": "Children",
+      "category2": "Clothes"
+    },
+    "description": "A lightweight overall in a waffle pattern in a beautiful offwhite color. This overall is for children."
+  },
+
+  {
+    "id": 2,
+    "name": "Tindur Sweater",
+    "price": 900,
+    "img": "/images/children/TINDURsweater1.jpg",
+    "category": {
+      "category1": "Children",
+      "category2": "Clothes"
+    },
+    "description": "A sweater that looks like our Tindur cardigan in same pattern, but in offwhite and black. This sweater is made out of 100% Merino. This sweater is for children."
+  },
+
+  {
+    "id": 3,
+    "name": "Ský Sweater",
+    "price": 900,
+    "img": "/images/children/ylur16.jpg",
+    "category": {
+      "category1": "Children",
+      "category2": "Clothes"
+    },
+    "description": "A sweater in 100% Merino and made in a sweet waffle pattern. The sweater is in an offwhite color with orange ends on the sleeves and neck. This sweater is for children."
+  },
+
+  {
+    "id": 4,
+    "name": "Lava Sweater",
+    "price": 800,
+    "img": "/images/children/Lava800.jpg",
+    "category": {
+      "category1": "Children",
+      "category2": "Clothes"
+    },
+    "description": "A sweet high neck 100% Merino sweater in a dark grey. This sweater is for children."
+  },
+
+  {
+    "id": 5,
+    "name": "Lava Sweater",
+    "price": 2000,
+    "img": "/images/adult/img-lava.jpg",
+    "category": {
+      "category1": "Adult",
+      "category2": "Clothes"
+    },
+    "description": "This sweater is made out of 100% merino wool. It is a white sweater with high neck and a sweet pattern on the body. This sweater is for women."
+  },
+
+  {
+    "id": 6,
+    "name": "Brim Sweater",
+    "price": 1500,
+    "img": "/images/adult/img-brim.jpg",
+    "category": {
+      "category1": "Adult",
+      "category2": "Clothes"
+    },
+    "description": "This sweater is made of 100% wool. Oversized fit sweater to men. The color is offwhite with orange ends on the sleves and at the neck."
+  },
+
+  {
+    "id": 7,
+    "name": "Birta Headband",
+    "price": 175,
+    "img": "/images/children/ylur28.jpg",
+    "category": {
+      "category1": "Children",
+      "category2": "Accessories"
+    },
+    "description": "A headband in 100% Merino, in a beautiful beige color. This headband is for children."
+  },
+
+  {
+    "id": 8,
+    "name": "Rán Collar",
+    "price": 200,
+    "img": "/images/children/RanCollar200.jpg",
+    "category": {
+      "category1": "Children",
+      "category2": "Accessories"
+    },
+    "description": "A sweet collar to spice up your childs outfit in 100% Alpaca. This collar is for children."
+  },
+
+  {
+    "id": 9,
+    "name": "Tindur Cardigan",
+    "price": 800,
+    "img": "/images/children/TINDURcardigan1-595x595.jpg",
+    "category": {
+      "category1": "Children",
+      "category2": "Clothes"
+    },
+    "description": "A cardigan made out of 100% Merino, with a pattern in offwhite and orange. This cardigan is for children."
+  },
+
+  {
+    "id": 10,
+    "name": "Ský Sweater",
+    "price": 1775,
+    "img": "/images/adult/img-skybrown.jpg",
+    "category": {
+      "category1": "Adult",
+      "category2": "Clothes"
+    },
+    "description": "This sweater is made out of 100% merino. The sweater has a pattern on the body, in a orange color. This sweater is for men."
+  },
+
+  {
+    "id": 11,
+    "name": "Karnival Sweater",
+    "price": 1500,
+    "img": "/images/adult/img-karnival.jpg",
+    "category": {
+      "category1": "Adult",
+      "category2": "Clothes"
+    },
+    "description": "This sweater is made out of 100% wool. This sweater for men is oversized with a white body, sleeves in different colors which is blue and pink, and then grey at the neck. This sweater is for men."
+  },
+
+  {
+    "id": 12,
+    "name": "Ský Cardigan",
+    "price": 2000,
+    "img": "/images/adult/img-skycardigan.jpg",
+    "category": {
+      "category1": "Adult",
+      "category2": "Clothes"
+    },
+    "description": "This sweet cardigan is made out of 100% merino. The cardigan has a bubble pattern, in a beuatiful green color. This cardigan is for women."
+  },
+
+  {
+    "id": 13,
+    "name": "Ylur Cardigan",
+    "price": 2300,
+    "img": "/images/adult/img-ylur.jpg",
+    "category": {
+      "category1": "Adult",
+      "category2": "Clothes"
+    },
+    "description": "This sweet cardigan is made out of 100% alpaca. The cardigan has a sweet see-through pattern, in a snowwhite color. This cardigan is for women."
+  },
+
+  {
+    "id": 14,
+    "name": "Sker Sweater",
+    "price": 1775,
+    "img": "/images/adult/img-sker.jpg",
+    "category": {
+      "category1": "Adult",
+      "category2": "Clothes"
+    },
+    "description": "This sweater is made out of 100% wool. The cardigan has a sweet pattern on the body, in a beige color. This sweater is for women."
+  },
+
+  {
+    "id": 15,
+    "name": "Ylur Cotton Bag",
+    "price": 100,
+    "img": "/images/adult/img-cotton.jpg",
+    "category": {
+      "category1": "Adult",
+      "category2": "Accessories"
+    },
+    "description": "This is our cotton bag with a beautiful word that is from Iceland and means warmth in English and that really sums up what our clothes should give people."
+  },
+
+  {
+    "id": 16,
+    "name": "Dögun Scarf",
+    "price": 400,
+    "img": "/images/children/IMG_4265.jpg",
+    "category": {
+      "category1": "Children",
+      "category2": "Accessories"
+    },
+    "description": "A sweet scarf to children in an offwhite color. It is made out of 100% baby Alpaca and can also be used as a headband. This scarf fits ages 0-12 year. This scarf is for children."
+  }
+]

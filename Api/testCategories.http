@@ -1,0 +1,12 @@
+
+// Get all the categories
+GET http://localhost:5000/categories HTTP/1.1
+
+###
+
+
+// Get product by category
+GET http://localhost:5000/products/children HTTP/1.1
+
+
+
